@@ -1,7 +1,7 @@
 // lab-1.cpp : Defines the entry point for the console application.
 //okay this lab is to count the number of numbers in a text file or something.
 
-#include "stdafx.h"
+#include "stdafx.h" //I don't know what that is, I think Visual Studio made it...
 #include <iostream>
 #include <fstream>
 #include <cstdlib>
@@ -28,30 +28,33 @@ int main()
 		{
 		//int to hold number of numbers counted
 		int numberCount = 0;
-        //doubles to hold first and last two numbers
+        //doubles to hold first and last two numbers, and current number
         double numOne, numTwo, numThree, numFour;
-            //initialize them to zero so things don't point to whatever, just to be safe
+            //initialize them to zero so things aren't full of whatever, just to be safe
             numOne = numTwo = numThree = numFour = 0;
 			while (infile.get())
 			{
-				double x = infile.get();
+                double x = infile.get();
 				if (!isspace(x))
 				{
 					numberCount = numberCount + 1;
-					cout << infile.get() << endl;
+					cout << x << endl;
                     if (numberCount == 1)
                     {
                         numOne = x;
                     }
+                    if (numberCount == 2)
+                    {
+                        numTwo = x;
+                    }
 
 				}
-                //tell user when file is done being read and get out of this while loop, maybe not necessary,
-                // I can't remember what I was thinking exactly when I did this part but it works so I'll leave it
-                // for now
+                //tell user when file is done being read and get out of this while loop, otherwise it'll never end
 				if (infile.eof())
 				{
 					cout << "End of file reached.\n";
-					break;
+                    numFour = x;
+					break; //escape the loop!
 				}
 			}
         //tell the people what the results are

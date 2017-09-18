@@ -9,4 +9,6 @@ http://www.tutorialspoint.com/cplusplus/cpp_files_streams.htm
 http://en.cppreference.com/w/cpp/header
 http://www.cplusplus.com/reference/istream/istream/
 http://www.cplusplus.com/reference/cctype/isspace/
+http://www.cplusplus.com/doc/tutorial/files/
+instructor
 
