@@ -1,0 +1,5 @@
+﻿  stdafx.cpp
+  lab-1.cpp
+h:\visual studio 2017\projects\cosc2030\lab-1\lab-1\lab-1.cpp(31): warning C4551: function call missing argument list
+  lab-1.vcxproj -> H:\Visual Studio 2017\Projects\COSC2030\lab-1\Debug\lab-1.exe
+  lab-1.vcxproj -> H:\Visual Studio 2017\Projects\COSC2030\lab-1\Debug\lab-1.pdb (Partial PDB)

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Ace/Documents/GitHub/COSC 2030/lab1-processlist-j-vaira/lab-1/lab-1/lab-1.cpp
+stdafx.h
+C:/Users/Ace/Documents/GitHub/COSC 2030/lab1-processlist-j-vaira/lab-1/lab-1/stdafx.h
+iostream
+-
+fstream
+-
+cstdlib
+-
+
+C:/Users/Ace/Documents/GitHub/COSC 2030/lab1-processlist-j-vaira/lab-1/lab-1/stdafx.cpp
+stdafx.h
+C:/Users/Ace/Documents/GitHub/COSC 2030/lab1-processlist-j-vaira/lab-1/lab-1/stdafx.h
+
+C:/Users/Ace/Documents/GitHub/COSC 2030/lab1-processlist-j-vaira/lab-1/lab-1/stdafx.h
+targetver.h
+C:/Users/Ace/Documents/GitHub/COSC 2030/lab1-processlist-j-vaira/lab-1/lab-1/targetver.h
+stdio.h
+-
+tchar.h
+-
+
+C:/Users/Ace/Documents/GitHub/COSC 2030/lab1-processlist-j-vaira/lab-1/lab-1/targetver.h
+SDKDDKVer.h
+-
+

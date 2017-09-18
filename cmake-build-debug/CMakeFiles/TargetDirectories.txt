@@ -1,0 +1,3 @@
+C:/Users/Ace/Documents/GitHub/COSC 2030/lab1-processlist-j-vaira/cmake-build-debug/CMakeFiles/lab1_processlist_j_vaira.dir
+C:/Users/Ace/Documents/GitHub/COSC 2030/lab1-processlist-j-vaira/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Ace/Documents/GitHub/COSC 2030/lab1-processlist-j-vaira/cmake-build-debug/CMakeFiles/rebuild_cache.dir
