@@ -47,7 +47,11 @@ int main()
                     {
                         numTwo = x;
                     }
-
+                    if (!infile.eof())
+                    {
+                        //will  get overwritten every time until last time
+                        numThree = x;
+                    }
 				}
                 //tell user when file is done being read and get out of this while loop, otherwise it'll never end
 				if (infile.eof())
